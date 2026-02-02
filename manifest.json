@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "MacWhisper Meet Reminder",
+    "version": "1.0.0",
+    "description": "Shows a reminder to start MacWhisper when you join a Google Meet.",
+    "permissions": [
+      "tabs",
+      "notifications"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "icons": {
+      "128": "icon128.png"
+    }
+  }
